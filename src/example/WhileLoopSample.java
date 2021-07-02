@@ -7,10 +7,10 @@ public class WhileLoopSample {
 		int num = 0;
 		int sum = 0;
 		
-		while (sum < 100) {
+		do {
 			num += 1;
-			sum += num;
-		}
+			sum += num;		
+		} while (sum < 100);
 		System.out.println("1から" + num + "までの数の和は" + sum + "です。");
 	}
 
