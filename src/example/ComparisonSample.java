@@ -11,6 +11,10 @@ public class ComparisonSample {
 		System.out.println(number < 10);
 		System.out.println(number >= 10);
 		System.out.println(number <= 10);
+		
+		boolean result = true;
+		System.out.println(result == false);
+		System.out.println(result != false);
 	}
 
 }
